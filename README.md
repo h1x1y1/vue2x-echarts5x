@@ -22,3 +22,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+npm install echarts -S
+// main.js
+import * as echarts from 'echarts'
+Vue.prototype.$echarts = echarts
